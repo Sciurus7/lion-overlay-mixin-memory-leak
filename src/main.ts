@@ -5,7 +5,7 @@ customElements.define('test-overlay', TestOverlay);
 const checkbox = El<HTMLInputElement>('input', { type: 'checkbox' });
 
 document.body.append(El('div', { style: { display: 'flex', flexDirection: 'column'} }, [
-	El('label', {}, [checkbox, 'Enable ds-combobox']),
+	El('label', {}, [checkbox, 'Enable overlay-component']),
 ]));
 
 let instance: Element | undefined;
